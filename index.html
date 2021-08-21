@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro 2021</title>
+    <!-- css-link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"  rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="eShop"><span class="electronic">e</span>Shop</h1>
+        <hr>
+    </header>
+    <main>
+        <div class="flex-container">
+            <div class="img-flex">
+                <img class="img" src="images/mac.png" alt="">
+            </div>
+            <div class="info-flex">
+                <h1>
+                    Customize your Blue 24-inch iMac With Apple M1 chip.
+                </h1>
+                <p>
+                    Apple M1 chip with 8-core with 4 performance cores and 4 efficency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic keyboard - US English.
+                </p>
+
+                <!-- memory -->
+                <h4 class="all-h4">Memory</h4>
+                <button id="memory1" class="button">8GB unified memory</button>
+                <button id="memory2" class="button">16GB unified memory</button>
+                
+                <br>
+                <br>
+
+                <!-- storage -->
+                <h4 class="all-h4">Storage</h4>
+                <button id="storage1" class="button">256GB SSD storage</button>
+                <button id="storage2" class="button">512GB SSD storage</button>
+                <button id="storage3" class="button">1TB SSD storage</button>
+
+                <br>
+                <br>
+
+                <!-- delivery -->
+                <h4 class="all-h4">Choose your delivery option</h4>
+                <button id="delivery1" class="button">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="delivery2" class="button">Friday, Aug 21 Delivery Charge $20</button>
+                
+
+               
+                    
+            </div>
+        </div>
+        <section>
+             <!-- calculate-amount -->
+             <div class="table-div">
+                <table class="table-flex">
+                    <tr class="trClass">
+                        <td class="tdClass">Best Price</td>
+                        <td class="tdClass">$<span id="best-price">1299</span> </td>
+                    </tr>
+                    <tr class="trClass">
+                        <td class="tdClass">Extra Memory Cost</td>
+                        <td class="tdClass">$<span id="extra-memory">0</span></td>
+                    </tr>
+                    <tr class="trClass">
+                        <td class="tdClass">Extra Storage Cost</td>
+                        <td class="tdClass">$<span id="extra-storage">0</span></td>
+                    </tr>
+                    <tr class="trClass">
+                        <td class="tdClassTotal">Delivery Charge</td>
+                        <td class="tdClassTotal">$<span id="delivery-charge">0</span></td>
+                    </tr>
+                    <tr class="trClass">
+                        <td>Total Price</td>
+                        <td>$<span id="total-price">1299</span></td>
+                    </tr>
+                </table>
+                
+            </div>
+        </section>
+        <hr>
+        <section class="promo-sec">
+            <div class="promo-div">
+                <p>Add Promo Code</p> 
+                <input class="promo-input" type="text" name="" id="discount-code">
+                <button id="promo-apply" class="promo-button">Apply</button>
+                <br>
+                <h1 class="promo-total">Total: $ <span id="main-total">1299</span><h1>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="file.js"></script>
+</body>
+</html>

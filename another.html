@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- CSS stylesheet  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Macbook pro section  -->
+    <main>
+        <section class="macbook-container">
+            <div class="macbook-picture">
+                <img src="./images/mac.png" alt="">
+            </div>
+            <div class="customize-container-heading">
+                <div>
+                    <h1 class="macbook-heading">Customize your Blue 24-inch <br> iMac with Apple M1 chip.</h1>
+                <p class="macbook-defination">
+                    Apple M1 chip with 8-core CPU with 4 performance cores and 4 eddiciency <br> cores, 7-core GPU and 16-core Neural Engine 8GB unified memory 256GB <br> SSD storage Two Thunderbolt/ USB 4 ports Magic Mouse Magic Keyboard - <br> US English
+                </p>
+                </div>
+                <!-- Memory 🙂 -->
+                <div class="customize-container">
+                    <label class="main-heading" for="Memory">Memory</label> <br>
+                <button id="memory-8gb"  class="every-button">8GB unified memory</button>
+                <button id="memory-16gb" class="every-button">16GB unified memory</button>
+                </div>
+                <!-- Storage 🙂 -->
+                <div class="storage">
+                    <label for="storage" class="main-heading">Storage</label> <br>
+                    <button id="storage-256gb" class="every-button">256GB SSD Storage</button>
+                    <button id="storage-512gb" class="every-button">512GB SSD Storage</button>
+                    <button id="storage-1tb" class="every-button">1TB SSD Storage</button>
+                </div>
+                <!-- Delivery 🙂 -->
+                <div class="customize-container">
+                    <label class="main-heading" for="Delivey">Choose your delivery option</label> <br>
+                    <button id="delivery-free" class="every-button">Friday,Aug 25 FREE Prime Delivey</button>
+                    <button id="delivery-cost" class="every-button">Friday, Aug 21 Delivey charge $20</button>
+                </div>
+                <!-- Price Calculation 🙁  -->
+                <div class="price-container">
+                    <table>
+                        <tr class="price-row">
+                            <th>Best Price</th>
+                            <th class="price-style">$<span id="normal-price">1299</span></th>
+                        </tr>
+                        <tr class="price-row">
+                            <th>Extra Memory Cost</th>
+                            <th class="price-style">$<span id="memory-price">0</span></th>
+                        </tr>
+                        <tr class="price-row">
+                            <th>Extra Storage cost</th>
+                            <th class="price-style">$<span id="storage-price">0</span></th>
+                        </tr>
+                        <tr class="price-row-different">
+                            <th>Delivery Cost</th>
+                            <th class="price-style">$<span id="delivery-price">0</span></th>
+                        </tr>
+                        <tr>
+                            <th>Total Price</th>
+                            <th class="price-style">$<span id="total-price">1299</span></th>
+                        </tr>
+                    </table>
+                    <!-- Promo Code 😉 -->
+                    <div class="promo-container">
+                        <label for="promo">Add Promo code</label><br>
+                    <input type="text" name="" id="discount-code">
+                    <button id="promo-apply" class="apply-button">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Macbook Pro Footer Section  -->
+    <footer>
+        <h1>Total: $<span id="main-total">1299</span></h1>
+    </footer>
+    <!-- JS File linkup  -->
+    <script src="./script.js"></script>
+</body>
+</html>
